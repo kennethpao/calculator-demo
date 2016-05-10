@@ -30,5 +30,18 @@ function multiply() {
 				$('#display_answer').html('The product is: '+answer);
 			}
 }
-
+function c(d){
+	document.getElementById("a").value=d;
+}
+function b(d){
+	document.getElementById("a").value+=d;
+}
+function e() { 
+	try { 
+		c(eval(document.getElementById("a").value)) 
+	} 
+	catch(e) {
+		c('Error') 
+	} 
+}  
 	

@@ -1,20 +1,28 @@
 <html>
 	<head>
-		<title>Calculator</title>
-		<script src="jquery-1.11.3.js"></script>
-		<script src="calculator.js" type="text/javascript"></script>
+		<title>calculator</title>
+		<script type="text/javascript" src="calculator.js"></script>
+		<script type="text/javascript" src="jquery-1.11.3.js"></script>
 		<link rel="StyleSheet" href="calculator.css" type="text/css" >
 	</head>
 	<body>
-			<div class="a"><input id="firstnum" value="" placeholder="First number" size="20"/><br/>
-			<input id="secondnum" value="" placeholder="second number" size="20"/><br/></div>
-			<div class="b" id="display_answer"></div>
-		<div class="a">
-			<button onclick="add();">+</button><br/>
-			<button onclick="subtract();">-</button><br/>
-			<button onclick="divide();">/</button><br/>
-			<button onclick="multiply();">*</button><br/>
-			<button onclick="clear();">C</button>
-		</div>	
+		<input type="text" id="a"/><br/>
+		<input type="button" value="1"  onclick='b("1")'/>  
+		<input type="button" value="2"  onclick='b("2")'/>
+		<input type="button" value="3"  onclick='b("3")'/>
+		<input type="button" value="+"  onclick='b("+")'/><br/>
+		<input type="button" value="4"  onclick='b("4")'/>
+		<input type="button" value="5"  onclick='b("5")'/>
+		<input type="button" value="6"  onclick='b("6")'/>
+		<input type="button" value="-"  onclick='b("-")'/><br/>
+		<input type="button" value="7"  onclick='b("7")'/>
+		<input type="button" value="8"  onclick='b("8")'/>
+		<input type="button" value="9"  onclick='b("9")'/>
+		<input type="button" value="*"  onclick='b("*")'/><br/>
+		<input type="button" value="0"  onclick='b("0")'/>
+		<input type="button" value="."  onclick='b(".")'/>  
+		<input type="button" value="/"  onclick='b("/")'/>
+		<input type="button" value="C"  onclick='c("")'>
+		<input type="button" value="="  onclick='e()'/>
 	</body>
 </html>
