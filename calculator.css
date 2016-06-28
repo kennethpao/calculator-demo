@@ -1,16 +1,24 @@
 body{
-	background-color:tan;
-	position:relative;
-	top:80px;
-	left:40%;
+    background-color: grey;
+    position: relative;
+    align-content: center;
 }
-.a input{
-	position:relative;
-	
-	background-color:#bccd95;
-	font-size:21px;
-	text-align:right;
-} 
-.b{
-	color:blue;
+input{
+    padding: 2%;
+    
+}
+.number{
+    width:6%;
+    height: 5%;
+    
+    padding-right: 2%;
+}
+.act1{
+    height: 5%;
+    width:5%
+}
+.screen{
+    background-color: darkolivegreen;
+    height:10%;
+    width:25%;
 }
